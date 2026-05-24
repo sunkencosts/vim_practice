@@ -15,9 +15,9 @@ motions marked `new` or `learning`.
 
 | Motion | Description | Comfort | Notes |
 |--------|-------------|---------|-------|
-| `f{char}` | Jump forward to the next occurrence of `{char}` on the current line | `comfortable` | |
+| `f{char}` | Jump forward to the next occurrence of `{char}` on the current line | `mastered` | |
 | `t{char}` | Jump forward to just before the next occurrence of `{char}` on the line | `learning` | |
-| `;` | Repeat the last `f` or `t` motion | `new` | |
+| `;` | Repeat the last `f` or `t` motion | `comfortable` | |
 | `0` | Jump to column 0 (hard line start, before any whitespace) | `comfortable` | |
 | `$` | Jump to the last character of the line | `comfortable` | |
 | `^` | Jump to the first non-whitespace character of the line | `comfortable` | |
@@ -26,10 +26,10 @@ motions marked `new` or `learning`.
 
 | Motion | Description | Comfort | Notes |
 |--------|-------------|---------|-------|
-| `gg` | Jump to the first line of the file | `new` | |
-| `G` | Jump to the last line of the file | `new` | |
-| `}` | Jump forward to the next blank-line-separated block | `new` | |
-| `{` | Jump backward to the previous blank-line-separated block | `new` | |
+| `gg` | Jump to the first line of the file | `mastered` | |
+| `G` | Jump to the last line of the file | `mastered` | |
+| `}` | Jump forward to the next blank-line-separated block | `mastered` | |
+| `{` | Jump backward to the previous blank-line-separated block | `mastered` | |
 | `H` | Jump to the top of the visible screen | `new` | |
 | `M` | Jump to the middle of the visible screen | `new` | |
 | `L` | Jump to the bottom of the visible screen | `new` | |
@@ -69,7 +69,7 @@ motions marked `new` or `learning`.
 
 | Motion | Description | Comfort | Notes |
 |--------|-------------|---------|-------|
-| `%` | Jump to the matching bracket, paren, or brace | `new` | |
+| `%` | Jump to the matching bracket, paren, or brace | `learning` | |
 
 ## Operators and text objects
 
@@ -77,8 +77,8 @@ motions marked `new` or `learning`.
 |--------|-------------|---------|-------|
 | `ciw` | Change inner word | `new` | |
 | `daw` | Delete a word including surrounding space | `new` | |
-| `ci"` | Change inside double quotes | `learning` | |
-| `ci(` | Change inside parentheses | `learning` | |
+| `ci"` | Change inside double quotes | `mastered` | |
+| `ci(` | Change inside parentheses | `mastered` | |
 | `di{` | Delete inside curly braces | `new` | |
 | `di[` | Delete inside square brackets | `new` | |
 | `vip` | Visually select inner paragraph | `new` | |
@@ -87,7 +87,7 @@ motions marked `new` or `learning`.
 
 | Motion | Description | Comfort | Notes |
 |--------|-------------|---------|-------|
-| `A` | Jump to end of line and enter insert mode | `learning` | |
+| `A` | Jump to end of line and enter insert mode | `mastered` | |
 | `I` | Jump to first non-whitespace and enter insert mode | `comfortable` | |
 | `o` | Open a new line below and enter insert mode | `new` | |
 | `O` | Open a new line above and enter insert mode | `new` | |
@@ -99,7 +99,7 @@ motions marked `new` or `learning`.
 | `dd` | Delete entire current line | `new` | |
 | `D` | Delete from cursor to end of line | `new` | |
 | `diw` | Delete inner word | `new` | |
-| `r{char}` | Replace exactly one character without entering insert mode | `comfortable` | |
+| `r{char}` | Replace exactly one character without entering insert mode | `mastered` | |
 
 ## Yank and paste
 
